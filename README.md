@@ -20,18 +20,23 @@ git push
 ## HOW TO UNDO A PUSH
 
 ## Safest Way
-Step 1: Find the commit hash you want to return to
+Step 1: Find the commit hash you want to return to:
+
 git log
 
-Step 2: Create a new commit that undoes the changes
+Step 2: Create a new commit that undoes the changes:
+
 git revert <commit-hash>
 
-Sep 3: Push the revert commit
+Sep 3: Push the revert commit:
+
 git push
 
 ## SUS Method
 Go back one commit:
+
 git reset --hard HEAD~1
 
 Force push (be careful with this!):
+
 git push --force
