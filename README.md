@@ -6,12 +6,12 @@ GIT_AUTHOR_DATE="2025-01-01 12:00:00" GIT_COMMITTER_DATE="2025-01-01 12:00:00" g
 
 ## HOW TO UPDATE THE NAME OF A FILE IN GIT
 
-## AUTOMATIC CHANGE
+## Automatic Method
 git mv OLDNAME.md NEWNAME.md
 git commit -m "Renamed OLDNAME.md to NEWNAME.md"
 git push
 
-## MANUAL CHANGE
+## Manual Method
 git rm OLDNAME.md
 git add NEWNAME.md
 git commit -m "Renamed OLDNAME.md to NEWNAME.md"
