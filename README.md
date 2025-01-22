@@ -1,5 +1,4 @@
-# TestGit
-A repo for testing github commands
+# TestGit: A repo for testing github commands
 
 ## HOW TO MAKE A COMMIT IN THE PAST:
 GIT_AUTHOR_DATE="2025-01-01 12:00:00" GIT_COMMITTER_DATE="2025-01-01 12:00:00" git commit -m "Going back in time"
@@ -30,7 +29,7 @@ git revert <commit-hash>
 Sep 3: Push the revert commit
 git push
 
-## SUS METHOD
+## SUS Method
 Go back one commit:
 git reset --hard HEAD~1
 
