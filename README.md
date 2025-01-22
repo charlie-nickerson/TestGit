@@ -5,11 +5,13 @@ A repo for testing github commands
 GIT_AUTHOR_DATE="2025-01-01 12:00:00" GIT_COMMITTER_DATE="2025-01-01 12:00:00" git commit -m "Going back in time"
 
 ## HOW TO UPDATE THE NAME OF A FILE IN GIT
+
+## AUTOMATIC CHANGE
 git mv OLDNAME.md NEWNAME.md
 git commit -m "Renamed OLDNAME.md to NEWNAME.md"
 git push
 
-### If you've already manually changed the name use this method
+## MANUAL CHANGE
 git rm OLDNAME.md
 git add NEWNAME.md
 git commit -m "Renamed OLDNAME.md to NEWNAME.md"
